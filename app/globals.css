@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer components{
+.card{@apply bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-lg p-4 mb-4}
+.lbl{@apply block text-xs font-medium text-gray-600 dark:text-gray-400 mb-1}
+.inp{@apply w-full border border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 dark:focus:ring-white}
+.btn{@apply bg-black dark:bg-white text-white dark:text-gray-900 px-4 py-2 rounded text-sm font-medium hover:opacity-80 disabled:opacity-50 transition-opacity}
+.th{@apply text-left px-3 py-2 text-xs uppercase text-gray-500 font-semibold border-b border-gray-200 dark:border-gray-800}
+.td{@apply px-3 py-2 text-sm border-b border-gray-100 dark:border-gray-800 align-top text-gray-800 dark:text-gray-200}
+}
